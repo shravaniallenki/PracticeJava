@@ -16,14 +16,14 @@ public class RestClass {
 	
 	
 	@GetMapping(path ="/getitemprice")
-	public String getitemdetails(){
-		/*if (ItemName.contains("Dal")){
+	public int getitemdetails(String ItemName){
+		if (ItemName.contains("Dal")){
 			return ItemPrice;
 		}
 		else {
 			return 0;
-		}*/
-		return "All Dal";
+		}
+		//return "All Dal";
 	}
 	
 	/*@PutMapping(path = "/insertitemdetails/{id}")
